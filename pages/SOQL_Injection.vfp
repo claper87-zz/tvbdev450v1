@@ -1,0 +1,21 @@
+<apex:page controller="SOQLController" lightningStylesheets="true">
+    
+    <div  style="max-width:500px;margin:20px;" class="slds-scope">
+        <apex:form >
+            <apex:pageBlock title="Search Contacts">
+                <apex:pageBlockSection >
+                    <apex:pageBlockSectionItem >
+                        <apex:outputLabel for="inputName">Search </apex:outputLabel>
+                        <apex:inputText value="{!name}" id="inputName"/>
+                    </apex:pageBlockSectionItem>
+                    <apex:commandButton value="Query" action="{!dynamicQuerySafe}"  />
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:form>
+        <br/><br/>
+        <apex:dataTable value="{!queryResult}" var="thisContact">
+            <apex:column headerValue="FirstName" value="{!thisContact.FirstName}" />
+            <apex:column headerValue="LastName" value="{!thisContact.LastName}" />
+        </apex:dataTable>
+    </div>
+</apex:page>
