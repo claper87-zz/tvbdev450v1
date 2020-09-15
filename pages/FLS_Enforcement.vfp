@@ -1,0 +1,9 @@
+<apex:page standardController="Account">
+    <apex:pageBlock >
+    	<apex:pageBlockSection >
+        	<apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.Industry}"/>
+            <apex:outputField value="{!Account.Is_Top_Contributor__c}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
