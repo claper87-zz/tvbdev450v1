@@ -1,0 +1,9 @@
+<apex:page controller="FLS_customController">
+  <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:outputField value="{!accountInContext.Name}"/>
+            <apex:outputField value="{!accountInContext.Industry}"/>
+            <apex:outputField value="{!accountInContext.Is_Top_Contributor__c}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
