@@ -1,0 +1,52 @@
+<aura:component controller="ContactSearchController" >
+    
+    <aura:attribute type="String" name="searchString"/>
+    <aura:attribute type="Contact[]" name="contactList"/>
+    <aura:attribute type="Contact[]" name="selectedContacts"/>
+    <aura:attribute type="List" name="mycolumns"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="selectContact" event="c:contactSelectedEvt" action="{!c.handleComponentEvent}"/>
+    
+    <div style="margin:20px">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning:input value="{! v.searchString }" label="Enter Name"/>
+            </div>
+            <div class="slds-col" style="padding-top:25px">
+                <lightning:button label="Query" onclick="{!c.performSearch}"/>
+            </div>
+        </div>
+        
+        <br/><br/>
+        
+        <table>
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" >Selected</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" >FirstName</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" >LastName</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.contactList}" var="contact">
+                    <c:contactRow thisContact="{!contact}"/><br/>
+                </aura:iteration>
+            </tbody>
+        </table>
+        	
+        <div style="margin-top:50px">
+            <h1><strong> You've selected the following contacts</strong></h1><br/>
+            <aura:iteration items="{!v.selectedContacts}" var="selContact">
+                {!selContact.FirstName}<br/>
+            </aura:iteration>
+        </div>
+ 
+    </div>
+</aura:component>
