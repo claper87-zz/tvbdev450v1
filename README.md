@@ -41,5 +41,19 @@ Extra Reading Mateial
 - https://developer.salesforce.com/docs/atlas.en-us.208.0.platform_events.meta/platform_events/platform_events_intro_architecture.htm
 - https://help.salesforce.com/articleView?id=einstein_next_best_action.htm&type=5
 
+## WEEK6
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_intro.htm
+https://developer.salesforce.com/blogs/developer-relations/2012/11/how-code-coverage-works.html
+https://resources.docs.salesforce.com/sfdc/pdf/salesforce_development_lifecycle.pdf
+https://developer.salesforce.com/page/An_Introduction_to_Apex_Code_Test_Methods
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_load_data.htm
+http://salesforce.stackexchange.com/questions/54527/test-loaddata-undocumented-behavior
+https://developer.salesforce.com/releases/release/Spring15/TestClasses
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_seealldata_using.htm
+http://jessealtman.com/2013/09/proper-unit-test-structure-in-apex/
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_code_coverage_intro.htm
+https://developer.salesforce.com/blogs/developer-relations/2012/11/how-code-coverage-works.html
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm
+https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_debugging_debug_log.htm
 
 
