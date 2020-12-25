@@ -56,46 +56,11 @@ https://developer.salesforce.com/blogs/developer-relations/2012/11/how-code-cove
 https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm
 https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_debugging_debug_log.htm
 
-## WEEK6 Poll Answers
-
-Q1: What can you use to implement inheritance among Apex classes?
-   a- Apex Interface
-   b- Apex Protocol
-   c- Apex virtual class and its extensions
-   d- Apex class denotated with "Without Sharing" keyword
-   
-Answers: a & c
-
-Q2: What percentage of Apex code must be executed by test methods?
-  a- 20
-  b- 50
-  c- 75
-  d- 100
-  
-Answer: c
-
-Q3: Which annotation for a method in a test class indicates that it will be run once before any of the class's test methods are executed?
-  a- @isTest(runOnce=true)
-  b- @isTest(seeAllData=true)
-  c- @testMEthod
-  d- @testSetup
-  
-Answer: d
-
-Q4: In a test method, an Integer variable named x has the value 10. When the statement System.Assert(x == 10); is executed in the method, what is the outcome?
-  a- An assertion exeption is thrown and the test fails.
-  b- An assertion exception is thrown ad the test passes.
-  c- An assertion exception is not thrown and the test fails
-  d- An assertion exception is not thrown and the test passes
-  
-Answer: d
-
-Q5: What can a SOSL search return?
-  a- List<List<sObject>>
-  b- List<sObject>
-  c- Map<Sobject,List<sObject>>
-  d- sObject
-
-Answer: a
- 
+## ALL OPTIONAL QUIZZES
+Week 1 https://testmoz.com/q/2201947
+Week 2 https://testmoz.com/q/3949222
+Week 3 https://testmoz.com/q/4041030
+Week 4 https://testmoz.com/q/4144674
+Week 5 https://testmoz.com/q/6069474
+Week 6 https://testmoz.com/q/6644724
 
